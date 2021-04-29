@@ -1,10 +1,19 @@
 # qliepack
 unpack/repack tool
 
-Usage
+for old games (FilePackVer3.1)
+```
+qliepackV1 r data0 data0.pack
+qliepackV1 u data0.pack data0
 ```
 
-qliepack r data0 data0.pack
-qliepack u data0.pack data0
+For new games (FilePackVer3.1)
+
+Tested on:
+- Happy Live, Show Up! (trial)
+
+```
+qliepackV2 r data0 data0.pack
+qliepackV2 u data0.pack data0
 ```
 
